@@ -72,14 +72,24 @@ nav {
     padding: 2px 2px;
     text-align: center;
     color: white;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
 }
 
-#welcome-section div {
-    width: 100%;
+#welcome-section  {
+    /* width: 100%; */
     padding: 90px 16px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h-title {
+    text-align: center;
+    text-decoration: none;    
+    display: inline;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 80px;
 }
 
 #sub-text {
@@ -111,6 +121,27 @@ nav {
     background-color: black;
     color: white;
     text-align: center;
+}
+.v-title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.v-title a{
+    text-decoration: none;
+    color: black;
+}
+.c-title {
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;    
+    width: 50%;
+    display: inline;
+}
+.c-title:hover {
+    background-color: black;
+    color: white;  
 }
 
 .img-project {
